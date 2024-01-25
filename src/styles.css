@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app-container{
+    width: 300px;
+    padding: 10px;
+    background-color: tan;
+    border-radius: 10px;
+}
+.li-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.header{
+    margin: 10px;
+    padding: 5px;
+}
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.inner-span{
+    cursor: pointer;
+}
+.text{
+    margin-left: 5px;
+}
